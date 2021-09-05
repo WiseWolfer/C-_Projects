@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>637</width>
+    <height>447</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="2" column="1">
+    <widget class="QPushButton" name="pushButAccept">
+     <property name="text">
+      <string>OK</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>174</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0" colspan="3">
+    <layout class="QFormLayout" name="formLayout_2">
+     <item row="0" column="0">
+      <widget class="QLabel" name="RFspeaker">
+       <property name="text">
+        <string>RF speakers</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lineRFspeaker"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="Midrangespeaker">
+       <property name="text">
+        <string>Midrange speakers</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineMidrangespeaker"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="Bassspeaker">
+       <property name="text">
+        <string>Bass speakers</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEditBassspeaker"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="Frequencyrange">
+       <property name="text">
+        <string>Frequecy range</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="linefrequencyrane"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="Guarantee">
+       <property name="text">
+        <string>Guarantee</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QSpinBox" name="spinBxGuarantee"/>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="5">
+    <spacer name="horizontalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>204</width>
+       <height>17</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="4">
+    <widget class="QPushButton" name="pushButReject">
+     <property name="text">
+      <string>Cancel</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3" colspan="3">
+    <layout class="QFormLayout" name="formLayout_3">
+     <item row="0" column="0">
+      <widget class="QLabel" name="Country">
+       <property name="text">
+        <string>Country</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lineCountry"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="Frontpower">
+       <property name="text">
+        <string>Front power</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QSpinBox" name="spinBxFrontPower"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="Frontmaxpower">
+       <property name="text">
+        <string>Front max power</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineFrontMaxPower"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="Frontsensetivity">
+       <property name="text">
+        <string>Front sensetivity</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QSpinBox" name="spinBxFrontsensetivity"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="FrontImpedance">
+       <property name="text">
+        <string>Front Impedance</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QSpinBox" name="spinBxFrontImpedance"/>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="2" colspan="2">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>149</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="0" colspan="6">
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="Nameoftheaccousticsystem">
+       <property name="text">
+        <string>Name of the accoustic system</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lineNameACSYS"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="Totalratedpower">
+       <property name="text">
+        <string>Total rated power</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEditTotalratedpower"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="totalmaxpower">
+       <property name="text">
+        <string>Total max power</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineTotalmaxPower"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="typeoftheaccousticsystem">
+       <property name="text">
+        <string>Type of the accoustic system</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="linetypeoftheAccSys"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="Cost">
+       <property name="text">
+        <string>Cost</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="lineCost"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButAccept</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>12</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>321</x>
+     <y>270</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButReject</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>169</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>321</x>
+     <y>270</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

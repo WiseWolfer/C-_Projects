@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>images/copy.png</file>
+        <file>images/cut.png</file>
+        <file>images/new.png</file>
+        <file>images/open.png</file>
+        <file>images/paste.png</file>
+        <file>images/save.png</file>
+        <file>images/save_as.png</file>
+        <file>images/-save-as-file-icon.png</file>
+        <file>images/edit.png</file>
+        <file>images/rubbish_bin.png</file>
+        <file>images/addNote.png</file>
+        <file>images/clear.jpg</file>
+    </qresource>
+</RCC>

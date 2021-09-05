@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['setcost_23',['setcost',['../class_dialog.html#aa6a5c65624a43c28323951c9ec28aed7',1,'Dialog::setcost()'],['../classspeaker__enclosure.html#ae65518861318d23cb557c74bfd3f94b3',1,'speaker_enclosure::setcost()']]],
+  ['setcountry_24',['setcountry',['../class_dialog.html#a6affafc95afac3893400c6b2af390303',1,'Dialog::setcountry()'],['../classspeaker__enclosure.html#a439115ab67acf94592d040d71fe2e952',1,'speaker_enclosure::setcountry()']]],
+  ['setfrequency_5frange_25',['setfrequency_range',['../class_dialog.html#a5923eb9f6aedb6cdd79d9fc8cd896750',1,'Dialog::setfrequency_range()'],['../classspeaker__enclosure.html#ae347bc7c6792276bdc1630499bf1b9fe',1,'speaker_enclosure::setfrequency_range()']]],
+  ['setfront_5fimpedance_26',['setFront_Impedance',['../class_dialog.html#a4628de749733a7609c88429fd5a8e8ef',1,'Dialog::setFront_Impedance()'],['../classspeaker__enclosure.html#a402ba82915536d92936ee511182d69b6',1,'speaker_enclosure::setFront_Impedance()']]],
+  ['setfront_5fmax_5fpower_27',['setFront_Max_Power',['../class_dialog.html#afdbbfe71c9ada9c4e6031b0aa95fe0ee',1,'Dialog']]],
+  ['setfront_5fpower_28',['setFront_Power',['../class_dialog.html#a4ac91203f0b56fc3d94eeacff12e564a',1,'Dialog::setFront_Power()'],['../classspeaker__enclosure.html#a25d83bd370a863867150b6cd94fcd7e5',1,'speaker_enclosure::setFront_Power()']]],
+  ['setfront_5fsensitivity_29',['setFront_sensitivity',['../class_dialog.html#af41f32a735b6b7c04abf8a3c70810def',1,'Dialog::setFront_sensitivity()'],['../classspeaker__enclosure.html#afa34bcd9ec3780d945a2fc25a8acc02e',1,'speaker_enclosure::setFront_sensitivity()']]],
+  ['setguarantee_30',['setGuarantee',['../class_dialog.html#a51360032fd7740fb9c4a79d0214292fa',1,'Dialog::setGuarantee()'],['../classspeaker__enclosure.html#ac1b7ece99ed8b7f710940267e9f8fb90',1,'speaker_enclosure::setGuarantee()']]],
+  ['setlfront_5fmax_5fpower_31',['setlFront_Max_Power',['../classspeaker__enclosure.html#abd4672cba75bd0f1af8cc3720c20bbc0',1,'speaker_enclosure']]],
+  ['setname_32',['setname',['../class_dialog.html#ad8dbff50e00f3dd8cf5ff9260033922c',1,'Dialog::setname()'],['../classspeaker__enclosure.html#a7ba9b306b3615ef93312bdc3405e8f16',1,'speaker_enclosure::setname()']]],
+  ['setpassive_33',['setpassive',['../class_dialog.html#a1587b3871d31b6eae26dc182f327d7b6',1,'Dialog::setpassive()'],['../classspeaker__enclosure.html#ad8f68e6c473309b908fc24f8e2a33f04',1,'speaker_enclosure::setpassive()']]],
+  ['setsize_34',['setSize',['../class_dialog.html#a3cd30cab9c02cef8b4fbe040de857994',1,'Dialog::setSize()'],['../classspeaker__enclosure.html#aad08b35f94ec97abaf7003dc0759011a',1,'speaker_enclosure::setSize()']]],
+  ['settotal_5fmax_5fpower_35',['setTotal_max_power',['../class_dialog.html#ac885c9d071b3a37796e6e9857860d535',1,'Dialog::setTotal_max_power()'],['../classspeaker__enclosure.html#a666132d300db5079bb93218595739c63',1,'speaker_enclosure::setTotal_max_power()']]],
+  ['settotal_5frated_5fpower_36',['setTotal_rated_power',['../class_dialog.html#aa57a8246695d3799441c69864c6c61de',1,'Dialog::setTotal_rated_power()'],['../classspeaker__enclosure.html#a23e2f51855e8ab587e76ab3ceba3bfe9',1,'speaker_enclosure::setTotal_rated_power()']]],
+  ['sp_37',['sp',['../struct_main_window_1_1_data.html#a2239a88f123317c06d411bf2d1df361c',1,'MainWindow::Data']]],
+  ['speaker_5fenclosure_38',['speaker_enclosure',['../classspeaker__enclosure.html',1,'speaker_enclosure'],['../classspeaker__enclosure.html#a0beebbf0881e3fa5ba3f79986b8c37e6',1,'speaker_enclosure::speaker_enclosure()'],['../classspeaker__enclosure.html#a788ae51376990007051bf86a41b0641a',1,'speaker_enclosure::speaker_enclosure(string lname, int lTotal_rated_power, int lTotal_max_power, string lpassive, const LSize lsize, int lcost, string lfrequency_range, int lGuarantee, string lcountry, int lFront_Power, int lFront_Max_Power, int lFront_sensitivity, int lFront_Impedance)']]]
+];

@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.18"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Аккустическая система: Исходный файл C:/qt_programmes/Kurs/dialog.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Аккустическая система
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.18 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">C:/qt_programmes/Kurs/dialog.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef DIALOG_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define DIALOG_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QDialog&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;speaker_enclosure.hpp&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span>Ui {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">class </span><a class="code" href="class_dialog.html">Dialog</a>;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="class_dialog.html">   14</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_dialog.html">Dialog</a> : <span class="keyword">public</span> QDialog</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    Q_OBJECT</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="struct_dialog_1_1_l_size.html">   20</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="struct_dialog_1_1_l_size.html">LSize</a></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="struct_dialog_1_1_l_size.html#ab66f0d3ceac4b9d93350b79ec1d05bd2">   23</a></span>&#160;        std::string <a class="code" href="struct_dialog_1_1_l_size.html#ab66f0d3ceac4b9d93350b79ec1d05bd2">RF_speakers</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="struct_dialog_1_1_l_size.html#a2f2182e720bf810d5b5b6e8ec27bf6c7">   26</a></span>&#160;        std::string <a class="code" href="struct_dialog_1_1_l_size.html#a2f2182e720bf810d5b5b6e8ec27bf6c7">Midrange_speakers</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="struct_dialog_1_1_l_size.html#a8e627f93ff5be473b6f76c8fe06c3301">   29</a></span>&#160;        std::string <a class="code" href="struct_dialog_1_1_l_size.html#a8e627f93ff5be473b6f76c8fe06c3301">bass_speakers</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    };</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_dialog.html#ab30ac48588a82983f653f58d50a52ddc">Dialog</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="class_dialog.html#a2a1fe6ef28513eed13bfcd3a4da83ccb">~Dialog</a>();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_dialog.html#aa57a8246695d3799441c69864c6c61de">setTotal_rated_power</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> lTotal_rated_power);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_dialog.html#a780f379c62ec4e54d8bcb303754df742">getTotal_rated_power</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_dialog.html#a1587b3871d31b6eae26dc182f327d7b6">setpassive</a>(<span class="keyword">const</span> std::string lpassive);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    std::string <a class="code" href="class_dialog.html#a2d1795aa6d031f6252f4dec57f7cf5e4">getpassive</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_dialog.html#ac885c9d071b3a37796e6e9857860d535">setTotal_max_power</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> lTotal_max_power);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_dialog.html#a6b837bb1a7642b621b1eaf41eb9b0b5c">getTotal_max_power</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_dialog.html#a3cd30cab9c02cef8b4fbe040de857994">setSize</a>(<span class="keyword">const</span> <a class="code" href="struct_dialog_1_1_l_size.html">LSize</a> lsize);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="struct_dialog_1_1_l_size.html">LSize</a> <a class="code" href="class_dialog.html#a7eb366a2f0c56637b9cf6178cece1196">getSize</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_dialog.html#a5923eb9f6aedb6cdd79d9fc8cd896750">setfrequency_range</a>(<span class="keyword">const</span> std::string lfrequency_range);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    std::string <a class="code" href="class_dialog.html#ab9dcf14a74c27f3f9748d3110d6a0481">getfrequency_range</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_dialog.html#ad8dbff50e00f3dd8cf5ff9260033922c">setname</a>(<span class="keyword">const</span> std::string lname);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    std::string <a class="code" href="class_dialog.html#ad18fc9039498e1fb56202e8effb0a83b">getname</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_dialog.html#aa6a5c65624a43c28323951c9ec28aed7">setcost</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> lcost);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_dialog.html#a8fe7698cd9735ed3f33323fb160058a8">getcost</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;     <span class="keywordtype">void</span> <a class="code" href="class_dialog.html#a51360032fd7740fb9c4a79d0214292fa">setGuarantee</a>(<span class="keyword">const</span> <span class="keywordtype">int</span>  lGuarantee);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;     <span class="keywordtype">int</span> <a class="code" href="class_dialog.html#a1888f978f3137cda647ba9329fd78ce0">getGuarantee</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;     <span class="keywordtype">void</span> <a class="code" href="class_dialog.html#a6affafc95afac3893400c6b2af390303">setcountry</a>(<span class="keyword">const</span> std::string lcountry);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;     std::string <a class="code" href="class_dialog.html#a3a89f2296c26aa6959559b0b0fd2672e">getcountry</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;     <span class="keywordtype">void</span> <a class="code" href="class_dialog.html#a4ac91203f0b56fc3d94eeacff12e564a">setFront_Power</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> lFront_Power);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;     <span class="keywordtype">int</span> <a class="code" href="class_dialog.html#afd35f73d23c3c6c5326a7d4a29aee7c5">getFront_Power</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;     <span class="keywordtype">void</span> <a class="code" href="class_dialog.html#afdbbfe71c9ada9c4e6031b0aa95fe0ee">setFront_Max_Power</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> lFront_Max_Power);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;     <span class="keywordtype">int</span> <a class="code" href="class_dialog.html#ae7f0ea18551f53ab985dee9d92fbf045">getFront_Max_Power</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;     <span class="keywordtype">void</span> <a class="code" href="class_dialog.html#af41f32a735b6b7c04abf8a3c70810def">setFront_sensitivity</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> lFront_sensitivity);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;     <span class="keywordtype">int</span> <a class="code" href="class_dialog.html#a0c9cbfa62d1b6bac1371eb38673f24d4">getFront_sensitivity</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;     <span class="keywordtype">void</span> <a class="code" href="class_dialog.html#a4628de749733a7609c88429fd5a8e8ef">setFront_Impedance</a>(<span class="keyword">const</span> <span class="keywordtype">int</span>  lFront_Impedance);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;     <span class="keywordtype">int</span> <a class="code" href="class_dialog.html#a3afa4a930c5628759731c32e8453fe3f">getFront_Impedance</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160; </div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="keyword">private</span> slots:</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;     Ui::Dialog *ui;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;};</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="preprocessor">#endif // DIALOG_H</span></div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="aclass_dialog_html_a5923eb9f6aedb6cdd79d9fc8cd896750"><div class="ttname"><a href="class_dialog.html#a5923eb9f6aedb6cdd79d9fc8cd896750">Dialog::setfrequency_range</a></div><div class="ttdeci">void setfrequency_range(const std::string lfrequency_range)</div><div class="ttdoc">Метод задания диапазона частот в диалоговое окно</div><div class="ttdef"><b>Definition:</b> dialog.cpp:69</div></div>
+<div class="ttc" id="astruct_dialog_1_1_l_size_html"><div class="ttname"><a href="struct_dialog_1_1_l_size.html">Dialog::LSize</a></div><div class="ttdoc">Данные классы(переменные класса)</div><div class="ttdef"><b>Definition:</b> dialog.hpp:21</div></div>
+<div class="ttc" id="aclass_dialog_html_a780f379c62ec4e54d8bcb303754df742"><div class="ttname"><a href="class_dialog.html#a780f379c62ec4e54d8bcb303754df742">Dialog::getTotal_rated_power</a></div><div class="ttdeci">int getTotal_rated_power() const</div><div class="ttdoc">Метод получения суммарной номинальной мощности из диалогового окна</div><div class="ttdef"><b>Definition:</b> dialog.cpp:26</div></div>
+<div class="ttc" id="aclass_dialog_html_a8fe7698cd9735ed3f33323fb160058a8"><div class="ttname"><a href="class_dialog.html#a8fe7698cd9735ed3f33323fb160058a8">Dialog::getcost</a></div><div class="ttdeci">int getcost() const</div><div class="ttdoc">Метод получения стоимости из диалоговое окно</div><div class="ttdef"><b>Definition:</b> dialog.cpp:95</div></div>
+<div class="ttc" id="aclass_dialog_html_aa57a8246695d3799441c69864c6c61de"><div class="ttname"><a href="class_dialog.html#aa57a8246695d3799441c69864c6c61de">Dialog::setTotal_rated_power</a></div><div class="ttdeci">void setTotal_rated_power(const int lTotal_rated_power)</div><div class="ttdoc">Метод задания суммарной номинальной мощности в диалоговое окно</div><div class="ttdef"><b>Definition:</b> dialog.cpp:21</div></div>
+<div class="ttc" id="aclass_dialog_html_a0c9cbfa62d1b6bac1371eb38673f24d4"><div class="ttname"><a href="class_dialog.html#a0c9cbfa62d1b6bac1371eb38673f24d4">Dialog::getFront_sensitivity</a></div><div class="ttdeci">int getFront_sensitivity() const</div><div class="ttdoc">Метод получения чувствительности по фронту из диалогового окна</div><div class="ttdef"><b>Definition:</b> dialog.cpp:146</div></div>
+<div class="ttc" id="aclass_dialog_html_ab9dcf14a74c27f3f9748d3110d6a0481"><div class="ttname"><a href="class_dialog.html#ab9dcf14a74c27f3f9748d3110d6a0481">Dialog::getfrequency_range</a></div><div class="ttdeci">std::string getfrequency_range() const</div><div class="ttdoc">Метод получения диапазона частот из диалогового окна</div><div class="ttdef"><b>Definition:</b> dialog.cpp:74</div></div>
+<div class="ttc" id="aclass_dialog_html_a7eb366a2f0c56637b9cf6178cece1196"><div class="ttname"><a href="class_dialog.html#a7eb366a2f0c56637b9cf6178cece1196">Dialog::getSize</a></div><div class="ttdeci">LSize getSize() const</div><div class="ttdoc">Метод получения динамиков по фронту из диалогового окна</div><div class="ttdef"><b>Definition:</b> dialog.cpp:58</div></div>
+<div class="ttc" id="aclass_dialog_html_a4628de749733a7609c88429fd5a8e8ef"><div class="ttname"><a href="class_dialog.html#a4628de749733a7609c88429fd5a8e8ef">Dialog::setFront_Impedance</a></div><div class="ttdeci">void setFront_Impedance(const int lFront_Impedance)</div><div class="ttdoc">Метод задания импеданса по фронту в диалоговое окно</div><div class="ttdef"><b>Definition:</b> dialog.cpp:151</div></div>
+<div class="ttc" id="aclass_dialog_html_aa6a5c65624a43c28323951c9ec28aed7"><div class="ttname"><a href="class_dialog.html#aa6a5c65624a43c28323951c9ec28aed7">Dialog::setcost</a></div><div class="ttdeci">void setcost(const int lcost)</div><div class="ttdoc">Метод задания стоимости в диалогового окна</div><div class="ttdef"><b>Definition:</b> dialog.cpp:90</div></div>
+<div class="ttc" id="aclass_dialog_html_a1888f978f3137cda647ba9329fd78ce0"><div class="ttname"><a href="class_dialog.html#a1888f978f3137cda647ba9329fd78ce0">Dialog::getGuarantee</a></div><div class="ttdeci">int getGuarantee() const</div><div class="ttdoc">Метод получения гарантии из диалогового окна</div><div class="ttdef"><b>Definition:</b> dialog.cpp:105</div></div>
+<div class="ttc" id="astruct_dialog_1_1_l_size_html_ab66f0d3ceac4b9d93350b79ec1d05bd2"><div class="ttname"><a href="struct_dialog_1_1_l_size.html#ab66f0d3ceac4b9d93350b79ec1d05bd2">Dialog::LSize::RF_speakers</a></div><div class="ttdeci">std::string RF_speakers</div><div class="ttdoc">ВЧ динамики (фронт)</div><div class="ttdef"><b>Definition:</b> dialog.hpp:23</div></div>
+<div class="ttc" id="aclass_dialog_html_a1587b3871d31b6eae26dc182f327d7b6"><div class="ttname"><a href="class_dialog.html#a1587b3871d31b6eae26dc182f327d7b6">Dialog::setpassive</a></div><div class="ttdeci">void setpassive(const std::string lpassive)</div><div class="ttdoc">Метод задания типа аккустической системы в диалоговое окно</div><div class="ttdef"><b>Definition:</b> dialog.cpp:31</div></div>
+<div class="ttc" id="aclass_dialog_html_a3cd30cab9c02cef8b4fbe040de857994"><div class="ttname"><a href="class_dialog.html#a3cd30cab9c02cef8b4fbe040de857994">Dialog::setSize</a></div><div class="ttdeci">void setSize(const LSize lsize)</div><div class="ttdoc">Метод задания динамиков по фронту в диалоговое окно</div><div class="ttdef"><b>Definition:</b> dialog.cpp:51</div></div>
+<div class="ttc" id="aclass_dialog_html_a6b837bb1a7642b621b1eaf41eb9b0b5c"><div class="ttname"><a href="class_dialog.html#a6b837bb1a7642b621b1eaf41eb9b0b5c">Dialog::getTotal_max_power</a></div><div class="ttdeci">int getTotal_max_power() const</div><div class="ttdoc">Метод получения суммарной максимальной мощности из диалогового окна</div><div class="ttdef"><b>Definition:</b> dialog.cpp:46</div></div>
+<div class="ttc" id="aclass_dialog_html_ad18fc9039498e1fb56202e8effb0a83b"><div class="ttname"><a href="class_dialog.html#ad18fc9039498e1fb56202e8effb0a83b">Dialog::getname</a></div><div class="ttdeci">std::string getname() const</div><div class="ttdoc">Метод получения названия акустической системы из диалогового окна</div><div class="ttdef"><b>Definition:</b> dialog.cpp:85</div></div>
+<div class="ttc" id="aclass_dialog_html_a3a89f2296c26aa6959559b0b0fd2672e"><div class="ttname"><a href="class_dialog.html#a3a89f2296c26aa6959559b0b0fd2672e">Dialog::getcountry</a></div><div class="ttdeci">std::string getcountry() const</div><div class="ttdoc">Метод получения страны производителя из диалогового окна</div><div class="ttdef"><b>Definition:</b> dialog.cpp:115</div></div>
+<div class="ttc" id="aclass_dialog_html_a4ac91203f0b56fc3d94eeacff12e564a"><div class="ttname"><a href="class_dialog.html#a4ac91203f0b56fc3d94eeacff12e564a">Dialog::setFront_Power</a></div><div class="ttdeci">void setFront_Power(const int lFront_Power)</div><div class="ttdoc">Метод задания мощности по фронту в диалоговое окно</div><div class="ttdef"><b>Definition:</b> dialog.cpp:120</div></div>
+<div class="ttc" id="aclass_dialog_html_a3afa4a930c5628759731c32e8453fe3f"><div class="ttname"><a href="class_dialog.html#a3afa4a930c5628759731c32e8453fe3f">Dialog::getFront_Impedance</a></div><div class="ttdeci">int getFront_Impedance() const</div><div class="ttdoc">Метод получения импеданса по фронту из диалогового окна</div><div class="ttdef"><b>Definition:</b> dialog.cpp:156</div></div>
+<div class="ttc" id="aclass_dialog_html_a2d1795aa6d031f6252f4dec57f7cf5e4"><div class="ttname"><a href="class_dialog.html#a2d1795aa6d031f6252f4dec57f7cf5e4">Dialog::getpassive</a></div><div class="ttdeci">std::string getpassive() const</div><div class="ttdoc">Метод получения типа аккустической системы из диалогового окна</div><div class="ttdef"><b>Definition:</b> dialog.cpp:36</div></div>
+<div class="ttc" id="aclass_dialog_html_a51360032fd7740fb9c4a79d0214292fa"><div class="ttname"><a href="class_dialog.html#a51360032fd7740fb9c4a79d0214292fa">Dialog::setGuarantee</a></div><div class="ttdeci">void setGuarantee(const int lGuarantee)</div><div class="ttdoc">Метод задания гарантии в диалоговое окно</div><div class="ttdef"><b>Definition:</b> dialog.cpp:100</div></div>
+<div class="ttc" id="aclass_dialog_html"><div class="ttname"><a href="class_dialog.html">Dialog</a></div><div class="ttdef"><b>Definition:</b> dialog.hpp:15</div></div>
+<div class="ttc" id="astruct_dialog_1_1_l_size_html_a2f2182e720bf810d5b5b6e8ec27bf6c7"><div class="ttname"><a href="struct_dialog_1_1_l_size.html#a2f2182e720bf810d5b5b6e8ec27bf6c7">Dialog::LSize::Midrange_speakers</a></div><div class="ttdeci">std::string Midrange_speakers</div><div class="ttdoc">СЧ динамики (фронт)</div><div class="ttdef"><b>Definition:</b> dialog.hpp:26</div></div>
+<div class="ttc" id="aclass_dialog_html_ac885c9d071b3a37796e6e9857860d535"><div class="ttname"><a href="class_dialog.html#ac885c9d071b3a37796e6e9857860d535">Dialog::setTotal_max_power</a></div><div class="ttdeci">void setTotal_max_power(const int lTotal_max_power)</div><div class="ttdoc">Метод задания суммарной максимальной мощности в диалоговое окно</div><div class="ttdef"><b>Definition:</b> dialog.cpp:41</div></div>
+<div class="ttc" id="aclass_dialog_html_a2a1fe6ef28513eed13bfcd3a4da83ccb"><div class="ttname"><a href="class_dialog.html#a2a1fe6ef28513eed13bfcd3a4da83ccb">Dialog::~Dialog</a></div><div class="ttdeci">~Dialog()</div><div class="ttdoc">деструктор диалогового окна</div><div class="ttdef"><b>Definition:</b> dialog.cpp:16</div></div>
+<div class="ttc" id="astruct_dialog_1_1_l_size_html_a8e627f93ff5be473b6f76c8fe06c3301"><div class="ttname"><a href="struct_dialog_1_1_l_size.html#a8e627f93ff5be473b6f76c8fe06c3301">Dialog::LSize::bass_speakers</a></div><div class="ttdeci">std::string bass_speakers</div><div class="ttdoc">НЧ динамики (фронт)</div><div class="ttdef"><b>Definition:</b> dialog.hpp:29</div></div>
+<div class="ttc" id="aclass_dialog_html_ae7f0ea18551f53ab985dee9d92fbf045"><div class="ttname"><a href="class_dialog.html#ae7f0ea18551f53ab985dee9d92fbf045">Dialog::getFront_Max_Power</a></div><div class="ttdeci">int getFront_Max_Power() const</div><div class="ttdoc">Метод получения максимальной мощности по фронту из диалогового окна</div><div class="ttdef"><b>Definition:</b> dialog.cpp:136</div></div>
+<div class="ttc" id="aclass_dialog_html_afdbbfe71c9ada9c4e6031b0aa95fe0ee"><div class="ttname"><a href="class_dialog.html#afdbbfe71c9ada9c4e6031b0aa95fe0ee">Dialog::setFront_Max_Power</a></div><div class="ttdeci">void setFront_Max_Power(const int lFront_Max_Power)</div><div class="ttdoc">Метод задания максимальной мощности по фронту в диалоговое окно</div><div class="ttdef"><b>Definition:</b> dialog.cpp:130</div></div>
+<div class="ttc" id="aclass_dialog_html_ad8dbff50e00f3dd8cf5ff9260033922c"><div class="ttname"><a href="class_dialog.html#ad8dbff50e00f3dd8cf5ff9260033922c">Dialog::setname</a></div><div class="ttdeci">void setname(const std::string lname)</div><div class="ttdoc">Метод задания названия акустической системы в диалоговое окно</div><div class="ttdef"><b>Definition:</b> dialog.cpp:80</div></div>
+<div class="ttc" id="aclass_dialog_html_a6affafc95afac3893400c6b2af390303"><div class="ttname"><a href="class_dialog.html#a6affafc95afac3893400c6b2af390303">Dialog::setcountry</a></div><div class="ttdeci">void setcountry(const std::string lcountry)</div><div class="ttdoc">Метод задания страны производителя в диалоговое окно</div><div class="ttdef"><b>Definition:</b> dialog.cpp:110</div></div>
+<div class="ttc" id="aclass_dialog_html_afd35f73d23c3c6c5326a7d4a29aee7c5"><div class="ttname"><a href="class_dialog.html#afd35f73d23c3c6c5326a7d4a29aee7c5">Dialog::getFront_Power</a></div><div class="ttdeci">int getFront_Power() const</div><div class="ttdoc">Метод получения мощности по фронту из диалогового окна</div><div class="ttdef"><b>Definition:</b> dialog.cpp:125</div></div>
+<div class="ttc" id="aclass_dialog_html_af41f32a735b6b7c04abf8a3c70810def"><div class="ttname"><a href="class_dialog.html#af41f32a735b6b7c04abf8a3c70810def">Dialog::setFront_sensitivity</a></div><div class="ttdeci">void setFront_sensitivity(const int lFront_sensitivity)</div><div class="ttdoc">Метод задания чувствительности по фронту в диалоговое окно</div><div class="ttdef"><b>Definition:</b> dialog.cpp:141</div></div>
+<div class="ttc" id="aclass_dialog_html_ab30ac48588a82983f653f58d50a52ddc"><div class="ttname"><a href="class_dialog.html#ab30ac48588a82983f653f58d50a52ddc">Dialog::Dialog</a></div><div class="ttdeci">Dialog(QWidget *parent=nullptr)</div><div class="ttdoc">Методы класса</div><div class="ttdef"><b>Definition:</b> dialog.cpp:9</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.18
+</small></address>
+</body>
+</html>
